@@ -50,6 +50,8 @@
 
 <script>
 export default {
+  name: "currentUser",
+
   data() {
     return {
       userInfo: null,

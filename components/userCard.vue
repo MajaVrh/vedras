@@ -9,7 +9,7 @@
       <div class="lastName">{{ user.lastName }}</div>
     </div>
 
-    <NuxtLink :to="`user/${user.id}`">
+    <NuxtLink :to="`/user/${user.id}`">
       <button style="width: 60%" class="buttonMore">Show more</button>
     </NuxtLink>
   </div>
