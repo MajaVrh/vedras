@@ -143,7 +143,7 @@
       />
     </div>
     <div class="footer backgroundBlue">
-      <div>Za više informacija pišite nam na mail</div>
+      <div>Za više informacija pišite nam na mail:</div>
       <div class="footerRow animacija">
         <div class="link">
           <a style="color: white" href="mailto:info@vedras.hr"
@@ -313,6 +313,7 @@ ul {
 .container-hr-4-img {
   width: 100%;
   height: 631px;
+  object-fit: cover;
 }
 
 .container-hr-4-text-poravnanje {

@@ -111,9 +111,9 @@
 
       <div class="backgroundBlue container-en-4-text">
         <div class="container-en-4-text-poravnanje">
-          With help of robots, we provide a service for cleaning large and small
-          spaces, which in the shortest possible time and autonomously disinfect
-          indoors where safety and “sense of cleanliness” must come first.
+          You want to provide a secure place to stay or work for your costumers
+          or employees. Search no more and contact us now. Let your spaces be
+          #covidfree
         </div>
       </div>
     </div>
@@ -152,7 +152,7 @@
             ><b>info@vedras.hr </b></a
           >
         </div>
-        <div style="padding: 0 10px">or call usj</div>
+        <div style="padding: 0 10px">or call us</div>
         <div class="link">
           <a style="color: white" href="tel:385989608920"
             ><b> +385 98 9608 920</b></a
@@ -314,6 +314,7 @@ ul {
 }
 .container-en-4-img {
   width: 100%;
+  object-fit: cover;
   height: 631px;
 }
 
