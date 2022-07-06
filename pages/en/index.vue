@@ -559,9 +559,9 @@ a {
 }
 
 @media (max-width: 700px) {
-  .container-hr {
+  .container-en {
     grid-template-columns: repeat(1, 1fr);
-    padding: 80px 0 !important;
+    padding: 20px 0 !important;
     margin: 0px 20px;
   }
 
