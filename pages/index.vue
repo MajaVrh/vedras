@@ -562,6 +562,12 @@ a {
 }
 
 @media (max-width: 700px) {
+  .container-hr {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 80px 0 !important;
+    margin: 0px 20px;
+  }
+
   .container-hr-3 {
     padding: 160px 20px !important;
   }

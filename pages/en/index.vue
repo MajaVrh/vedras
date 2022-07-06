@@ -19,12 +19,12 @@
         </div>
         <img
           class="marginTop UVDrobots"
-          src="UVD-Robots-logo-tagline-black-website.png"
+          src="/UVD-Robots-logo-tagline-black-website.png"
           alt=""
         />
         <img
           class="marginTop bostonMedical"
-          src="boston-medical-logo-color-jpg.png"
+          src="/boston-medical-logo-color-jpg.png"
           alt=""
         />
         <div class="marginTop text-2">
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div>
-        <img class="strojImg" src="kill-stroj.png" alt="" />
+        <img class="strojImg" src="/kill-stroj.png" alt="" />
         <div class="strojTextBlock">KILLS 99,99% OF MICROORGANISMS</div>
       </div>
     </div>
@@ -72,7 +72,7 @@
           </div></a
         >
       </div>
-      <div><img class="offerImg" loading="lazy" src="offer.png" alt="" /></div>
+      <div><img class="offerImg" loading="lazy" src="/offer.png" alt="" /></div>
     </div>
 
     <div class="container-en-3 backgroundWhite">
@@ -80,7 +80,7 @@
         <img
           class="covidImg"
           loading="lazy"
-          src="1_9JdjVS0SJanGma8Nt63dGw (1).jpg"
+          src="/1_9JdjVS0SJanGma8Nt63dGw (1).jpg"
           alt=""
         />
       </div>
@@ -102,12 +102,7 @@
       </div>
     </div>
     <div class="container-en-4">
-      <img
-        class="container-en-4-img"
-        src="
-      Group 7.jpg"
-        alt=""
-      />
+      <img class="container-en-4-img" src="/Group 7.jpg" alt="" />
 
       <div class="backgroundBlue container-en-4-text">
         <div class="container-en-4-text-poravnanje">
@@ -140,7 +135,7 @@
       </div>
       <img
         class="container-en-5-img animacija"
-        src="91448396_10158792383403455_4586978351473754112_n-1 (1).jpg"
+        src="/91448396_10158792383403455_4586978351473754112_n-1 (1).jpg"
         alt=""
       />
     </div>
@@ -564,6 +559,12 @@ a {
 }
 
 @media (max-width: 700px) {
+  .container-hr {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 80px 0 !important;
+    margin: 0px 20px;
+  }
+
   .container-en-3 {
     padding: 160px 20px !important;
   }
